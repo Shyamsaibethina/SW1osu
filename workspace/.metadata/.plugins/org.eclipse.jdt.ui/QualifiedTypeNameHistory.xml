@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="components.random.Random1L"/>
+    <fullyQualifiedTypeName name="components.random.Random"/>
+    <fullyQualifiedTypeName name="components.utilities.FormatChecker"/>
+    <fullyQualifiedTypeName name="components.xmltree.XMLTree1"/>
+    <fullyQualifiedTypeName name="jdk.javadoc.internal.doclets.toolkit.util.DocFinder.Output"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.OutOfMemoryError"/>
+    <fullyQualifiedTypeName name="components.utilities.Reporter"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="components.simplereader.SimpleReader"/>
+    <fullyQualifiedTypeName name="components.simplereader.SimpleReader1L"/>
+    <fullyQualifiedTypeName name="components.map.Map"/>
+    <fullyQualifiedTypeName name="components.map.Map1L"/>
+    <fullyQualifiedTypeName name="components.queue.Queue"/>
+    <fullyQualifiedTypeName name="components.queue.Queue1L"/>
+    <fullyQualifiedTypeName name="components.simplewriter.SimpleWriter"/>
+    <fullyQualifiedTypeName name="components.simplewriter.SimpleWriter1L"/>
+    <fullyQualifiedTypeName name="components.set.Set1L"/>
+    <fullyQualifiedTypeName name="javax.swing.JScrollPane"/>
+    <fullyQualifiedTypeName name="components.set.Set"/>
+    <fullyQualifiedTypeName name="components.stack.Stack"/>
+    <fullyQualifiedTypeName name="components.stack.Stack1L"/>
+    <fullyQualifiedTypeName name="components.xmltree.XMLTree"/>
+    <fullyQualifiedTypeName name="components.naturalnumber.NaturalNumber"/>
+    <fullyQualifiedTypeName name="components.naturalnumber.NaturalNumber1L"/>
+    <fullyQualifiedTypeName name="components.map.Map.Pair"/>
+    <fullyQualifiedTypeName name="components.naturalnumber.NaturalNumber2"/>
+</qualifiedTypeNameHistroy>

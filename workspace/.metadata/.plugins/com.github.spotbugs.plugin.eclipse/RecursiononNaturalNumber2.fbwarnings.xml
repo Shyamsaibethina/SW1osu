@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.2" sequence="17" timestamp="1639100548310" analysisTimestamp="1639100547844" release="">
+  <Project projectName="RecursiononNaturalNumber2">
+    <Jar>/Users/shyamsaibethina/Desktop/Sofware 1/workspace/RecursiononNaturalNumber2/bin/NaturalNumberInstanceOps.class</Jar>
+    <AuxClasspathEntry>/Users/shyamsaibethina/Desktop/Sofware 1/workspace/RecursiononNaturalNumber2/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/shyamsaibethina/Desktop/Sofware 1/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_16.0.1.v20210528-1205/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/shyamsaibethina/Desktop/Sofware 1/workspace/RecursiononNaturalNumber2/src</SrcDir>
+    <SrcDir>/Users/shyamsaibethina/Desktop/Sofware 1/workspace/RecursiononNaturalNumber2/test</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="11" last="16" removedByChange="true">
+    <Class classname="NaturalNumberInstanceOps">
+      <SourceLine classname="NaturalNumberInstanceOps" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    </Class>
+    <Method classname="NaturalNumberInstanceOps" name="power" signature="(I)V" isStatic="false">
+      <SourceLine classname="NaturalNumberInstanceOps" start="81" end="94" startBytecode="0" endBytecode="31" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    </Method>
+    <LocalVariable name="p" register="1" pc="58" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NaturalNumberInstanceOps" start="89" end="89" startBytecode="57" endBytecode="57" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    <SourceLine classname="NaturalNumberInstanceOps" start="89" end="89" startBytecode="57" endBytecode="57" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="p"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="11" last="16" removedByChange="true">
+    <Class classname="NaturalNumberInstanceOps">
+      <SourceLine classname="NaturalNumberInstanceOps" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    </Class>
+    <Method classname="NaturalNumberInstanceOps" name="power" signature="(I)V" isStatic="false">
+      <SourceLine classname="NaturalNumberInstanceOps" start="81" end="94" startBytecode="0" endBytecode="31" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    </Method>
+    <LocalVariable name="temp" register="2" pc="29" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NaturalNumberInstanceOps" start="83" end="83" startBytecode="28" endBytecode="28" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    <SourceLine classname="NaturalNumberInstanceOps" start="83" end="83" startBytecode="28" endBytecode="28" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="temp"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="11" last="16" removedByChange="true">
+    <Class classname="NaturalNumberInstanceOps">
+      <SourceLine classname="NaturalNumberInstanceOps" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    </Class>
+    <Method classname="NaturalNumberInstanceOps" name="subtract" signature="(Lcomponents/naturalnumber/NaturalNumber;)V" isStatic="false">
+      <SourceLine classname="NaturalNumberInstanceOps" start="71" end="77" startBytecode="0" endBytecode="26" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    </Method>
+    <LocalVariable name="nDigit" register="3" pc="54" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NaturalNumberInstanceOps" start="75" end="75" startBytecode="53" endBytecode="53" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    <SourceLine classname="NaturalNumberInstanceOps" start="75" end="75" startBytecode="53" endBytecode="53" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="nDigit"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="11" last="16" removedByChange="true">
+    <Class classname="NaturalNumberInstanceOps">
+      <SourceLine classname="NaturalNumberInstanceOps" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    </Class>
+    <Method classname="NaturalNumberInstanceOps" name="subtract" signature="(Lcomponents/naturalnumber/NaturalNumber;)V" isStatic="false">
+      <SourceLine classname="NaturalNumberInstanceOps" start="71" end="77" startBytecode="0" endBytecode="26" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    </Method>
+    <LocalVariable name="thisDigit" register="2" pc="49" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NaturalNumberInstanceOps" start="74" end="74" startBytecode="48" endBytecode="48" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    <SourceLine classname="NaturalNumberInstanceOps" start="74" end="74" startBytecode="48" endBytecode="48" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="thisDigit"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="6" last="9" removedByChange="true">
+    <Class classname="NaturalNumberInstanceOps">
+      <SourceLine classname="NaturalNumberInstanceOps" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    </Class>
+    <Method classname="NaturalNumberInstanceOps" name="power" signature="(I)V" isStatic="false">
+      <SourceLine classname="NaturalNumberInstanceOps" start="92" end="94" startBytecode="0" endBytecode="94" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    </Method>
+    <SourceLine classname="NaturalNumberInstanceOps" start="93" end="93" startBytecode="22" endBytecode="22" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="6" last="6" removedByChange="true">
+    <Class classname="NaturalNumberInstanceOps">
+      <SourceLine classname="NaturalNumberInstanceOps" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    </Class>
+    <Method classname="NaturalNumberInstanceOps" name="power" signature="(I)V" isStatic="false">
+      <SourceLine classname="NaturalNumberInstanceOps" start="92" end="98" startBytecode="0" endBytecode="105" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+    </Method>
+    <SourceLine classname="NaturalNumberInstanceOps" start="96" end="96" startBytecode="29" endBytecode="29" sourcefile="NaturalNumberInstanceOps.java" sourcepath="NaturalNumberInstanceOps.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 9 Dec 2021 20:42:27 -0500" total_classes="1" referenced_classes="26" total_bugs="0" total_size="46" num_packages="1" java_version="16.0.1" vm_version="16.0.1+9-24" cpu_seconds="0.64" clock_seconds="0.47" peak_mbytes="641.28" alloc_mbytes="2048.00" gc_seconds="0.03">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="46">
+      <ClassStats class="NaturalNumberInstanceOps" sourceFile="NaturalNumberInstanceOps.java" interface="false" size="46" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="136" invocations="2" avgMicrosecondsPerInvocation="68038" maxMicrosecondsPerInvocation="126961" standardDeviationMicrosecondsPerInvocation="58923"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="95" invocations="374" avgMicrosecondsPerInvocation="256" maxMicrosecondsPerInvocation="8124" standardDeviationMicrosecondsPerInvocation="685"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="74" invocations="378" avgMicrosecondsPerInvocation="197" maxMicrosecondsPerInvocation="26948" standardDeviationMicrosecondsPerInvocation="1386"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="51" invocations="26" avgMicrosecondsPerInvocation="1964" maxMicrosecondsPerInvocation="40539" standardDeviationMicrosecondsPerInvocation="7798"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1634739551517" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1634739551518" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1634739564672" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1634740498774" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1634740594325" release="" codeSize="38" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1634740837237" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1634742500849" release="" codeSize="48" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1634742549583" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1634742830163" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1634742841310" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1634742891387" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1639096838353" release="" codeSize="44" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1639096901101" release="" codeSize="51" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1639097105172" release="" codeSize="53" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1639097256300" release="" codeSize="53" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1639097258218" release="" codeSize="51" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1639097260263" release="" codeSize="44" numClasses="1"/>
+  </History>
+</BugCollection>

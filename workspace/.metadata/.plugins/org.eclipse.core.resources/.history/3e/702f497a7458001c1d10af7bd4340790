@@ -1,0 +1,16 @@
+package misc;
+
+import components.simplereader.SimpleReader;
+import components.simplereader.SimpleReader1L;
+import components.simplewriter.SimpleWriter;
+import components.simplewriter.SimpleWriter1L;
+
+import java.util.Random;
+
+public class misc {
+    public static void main(String[] args) {
+
+      input.close();
+        output.close();
+    }
+}

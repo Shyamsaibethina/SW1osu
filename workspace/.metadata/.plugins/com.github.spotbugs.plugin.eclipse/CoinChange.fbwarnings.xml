@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.0" sequence="25" timestamp="1631113819311" analysisTimestamp="1631113818627" release="">
+  <Project projectName="CoinChange">
+    <Jar>/Users/shyamsaibethina/Desktop/Sofware 1/workspace/CoinChange/bin/CoinChange2.class</Jar>
+    <AuxClasspathEntry>/Users/shyamsaibethina/Desktop/Sofware 1/workspace/CoinChange/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/shyamsaibethina/Desktop/Sofware 1/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_16.0.1.v20210528-1205/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/shyamsaibethina/Desktop/Sofware 1/workspace/CoinChange/test</SrcDir>
+    <SrcDir>/Users/shyamsaibethina/Desktop/Sofware 1/workspace/CoinChange/src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="10" last="11" removedByChange="true">
+    <Class classname="CoinChange1">
+      <SourceLine classname="CoinChange1" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Class>
+    <Method classname="CoinChange1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="CoinChange1" start="27" end="43" startBytecode="0" endBytecode="49" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Method>
+    <LocalVariable name="change" register="3" pc="70" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CoinChange1" start="37" end="37" startBytecode="69" endBytecode="69" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <SourceLine classname="CoinChange1" start="37" end="37" startBytecode="69" endBytecode="69" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="change"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_OBJECT" priority="2" rank="17" abbrev="UC" category="STYLE" first="24" last="24" removedByChange="true">
+    <Class classname="CoinChange2">
+      <SourceLine classname="CoinChange2" sourcefile="CoinChange2.java" sourcepath="CoinChange2.java"/>
+    </Class>
+    <Method classname="CoinChange2" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="CoinChange2" start="27" end="43" startBytecode="0" endBytecode="309" sourcefile="CoinChange2.java" sourcepath="CoinChange2.java"/>
+    </Method>
+    <String value="coinCounter"/>
+    <Type descriptor="[I"/>
+    <SourceLine classname="CoinChange2" start="31" end="31" startBytecode="51" endBytecode="51" sourcefile="CoinChange2.java" sourcepath="CoinChange2.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 8 Sep 2021 11:10:18 -0400" total_classes="1" referenced_classes="17" total_bugs="0" total_size="18" num_packages="1" java_version="16.0.1" vm_version="16.0.1+9-24" cpu_seconds="1.35" clock_seconds="0.69" peak_mbytes="877.06" alloc_mbytes="2048.00" gc_seconds="0.04">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="18">
+      <ClassStats class="CoinChange2" sourceFile="CoinChange2.java" interface="false" size="18" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="195" invocations="2" avgMicrosecondsPerInvocation="97641" maxMicrosecondsPerInvocation="176536" standardDeviationMicrosecondsPerInvocation="78895"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="180" invocations="357" avgMicrosecondsPerInvocation="504" maxMicrosecondsPerInvocation="48188" standardDeviationMicrosecondsPerInvocation="3178"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="31" invocations="358" avgMicrosecondsPerInvocation="87" maxMicrosecondsPerInvocation="1270" standardDeviationMicrosecondsPerInvocation="124"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="29" invocations="59" avgMicrosecondsPerInvocation="491" maxMicrosecondsPerInvocation="14275" standardDeviationMicrosecondsPerInvocation="1872"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="28" invocations="17" avgMicrosecondsPerInvocation="1679" maxMicrosecondsPerInvocation="9192" standardDeviationMicrosecondsPerInvocation="2611"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="21" invocations="2" avgMicrosecondsPerInvocation="10631" maxMicrosecondsPerInvocation="20458" standardDeviationMicrosecondsPerInvocation="9826"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="20" invocations="2" avgMicrosecondsPerInvocation="10212" maxMicrosecondsPerInvocation="10241" standardDeviationMicrosecondsPerInvocation="104"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="17" invocations="17" avgMicrosecondsPerInvocation="1013" maxMicrosecondsPerInvocation="9107" standardDeviationMicrosecondsPerInvocation="2233"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1631111158821" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1631111158822" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1631111497737" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1631111544235" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1631111685642" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1631111714570" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1631111735124" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1631111840045" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1631111865307" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1631111874440" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1631111890537" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1631111914434" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1631111930581" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1631111983937" release="" codeSize="17" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1631112174648" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1631112185574" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1631112209371" release="" codeSize="17" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1631112363263" release="" codeSize="17" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1631112390824" release="" codeSize="17" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1631112422230" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1631112532906" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1631112579660" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1631112763360" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1631113409620" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1631113720532" release="" codeSize="17" numClasses="1"/>
+  </History>
+</BugCollection>

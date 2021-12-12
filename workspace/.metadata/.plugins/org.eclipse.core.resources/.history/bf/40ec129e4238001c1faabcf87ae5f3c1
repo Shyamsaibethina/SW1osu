@@ -1,0 +1,37 @@
+import components.naturalnumber.NaturalNumber;
+import components.naturalnumber.NaturalNumber2;
+import components.simplereader.SimpleReader;
+import components.simplereader.SimpleReader1L;
+import components.simplewriter.SimpleWriter;
+import components.simplewriter.SimpleWriter1L;
+import components.xmltree.XMLTree;
+
+public class misc {
+    public static void main(String[] args) {
+        SimpleReader input = new SimpleReader1L();
+        SimpleWriter output = new SimpleWriter1L();
+
+        NaturalNumber zero = new NaturalNumber2();
+        String zeroExpected = "0";
+        
+        NaturalNumber mill = new NaturalNumber2(1000000);
+        String millExpected = "1,000,000";
+        
+        NaturalNumber tenth = new NaturalNumber2(10000);
+        String tenthExpected = "10,000";
+        
+        NaturalNumber random = new NaturalNumber2(1234567586);
+        String randomExpected = "1,234,567,586";
+        
+        assertEquals(zeroExpected,toStringWithCommas(zero));
+        assertEquals(millExpected,toStringWithCommas(mill));
+        assertEquals(tenthExpected,toStringWithCommas(tenth));
+        assertEquals(randomExpected,toStringWithCommas(random));
+
+
+        input.close();
+        output.close();
+
+    }
+
+}

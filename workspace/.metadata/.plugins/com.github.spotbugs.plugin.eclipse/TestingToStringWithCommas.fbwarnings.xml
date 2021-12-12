@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.0" sequence="16" timestamp="1635520308807" analysisTimestamp="1635520308220" release="">
+  <Project projectName="TestingToStringWithCommas">
+    <Jar>/Users/shyamsaibethina/Desktop/Sofware 1/workspace/TestingToStringWithCommas/bin/NNtoStringWithCommasTest.class</Jar>
+    <AuxClasspathEntry>/Users/shyamsaibethina/Desktop/Sofware 1/workspace/TestingToStringWithCommas/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/shyamsaibethina/Desktop/Sofware 1/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/shyamsaibethina/Desktop/Sofware 1/workspace/TestingToStringWithCommas/lib/NNtoStringWithCommas.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_16.0.1.v20210528-1205/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/shyamsaibethina/Desktop/Sofware 1/workspace/TestingToStringWithCommas/test</SrcDir>
+    <SrcDir>/Users/shyamsaibethina/Desktop/Sofware 1/workspace/TestingToStringWithCommas/src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 29 Oct 2021 11:11:48 -0400" total_classes="1" referenced_classes="20" total_bugs="0" total_size="31" num_packages="1" java_version="16.0.1" vm_version="16.0.1+9-24" cpu_seconds="1.45" clock_seconds="0.59" peak_mbytes="984.70" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="31">
+      <ClassStats class="NNtoStringWithCommasTest" sourceFile="NNtoStringWithCommasTest.java" interface="false" size="31" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="229" invocations="2" avgMicrosecondsPerInvocation="114589" maxMicrosecondsPerInvocation="123120" standardDeviationMicrosecondsPerInvocation="8537"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="71" invocations="403" avgMicrosecondsPerInvocation="177" maxMicrosecondsPerInvocation="4027" standardDeviationMicrosecondsPerInvocation="390"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="47" invocations="404" avgMicrosecondsPerInvocation="116" maxMicrosecondsPerInvocation="11186" standardDeviationMicrosecondsPerInvocation="567"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="25" invocations="20" avgMicrosecondsPerInvocation="1258" maxMicrosecondsPerInvocation="3962" standardDeviationMicrosecondsPerInvocation="1234"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="14" invocations="20" avgMicrosecondsPerInvocation="722" maxMicrosecondsPerInvocation="3485" standardDeviationMicrosecondsPerInvocation="936"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindPuzzlers" totalMilliseconds="11" invocations="1" avgMicrosecondsPerInvocation="11958" maxMicrosecondsPerInvocation="11958" standardDeviationMicrosecondsPerInvocation="0"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1635517976169" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1635517976170" release="" codeSize="38" numClasses="4"/>
+    <AppVersion sequence="2" timestamp="1635518697096" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1635519125199" release="" codeSize="24" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1635519170835" release="" codeSize="23" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1635519200789" release="" codeSize="23" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1635519458417" release="" codeSize="23" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1635519625787" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1635519727273" release="" codeSize="27" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1635519964438" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1635520078166" release="" codeSize="27" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1635520250377" release="" codeSize="27" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1635520257590" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1635520273780" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1635520289882" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1635520297205" release="" codeSize="31" numClasses="1"/>
+  </History>
+</BugCollection>

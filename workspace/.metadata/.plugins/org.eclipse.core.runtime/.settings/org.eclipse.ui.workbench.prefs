@@ -1,0 +1,6 @@
+//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+PLUGINS_NOT_ACTIVATED_ON_STARTUP=org.eclipse.m2e.discovery;
+RUN_IN_BACKGROUND=false
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.ColoredLabels.match_highlight=206,92,0
+overridepresentation=true
